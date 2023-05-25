@@ -7,7 +7,7 @@ class AddContact extends React.Component {
         <h2>Add Contacts</h2>
         <form className="ui form">
           <div className="field">
-            <label>Name</label>
+            <label>Enter your name</label>
             <input type="text" name="name" placeholder="Name" />
           </div>
           <div className="field">
