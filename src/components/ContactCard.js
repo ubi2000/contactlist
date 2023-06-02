@@ -11,7 +11,13 @@ const ContactCard = (props) => {
         <div className="header">{name}</div>
         <div>{email}</div>
       </div>
-      <i className="trash alternate icon" style={{ float: "right" }}></i>
+      <i
+        className="trash alternate icon"
+        style={{ float: "right", marginRight: "20px" }}
+        onClick={() => 
+          props.clickHandler(id)
+        }
+      ></i>
     </div>
   );
 };
